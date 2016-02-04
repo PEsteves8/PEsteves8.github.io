@@ -1,0 +1,59 @@
+
+.container {
+  width: 70%;
+  max-width: 1250px;
+}
+
+.name-title {
+  padding-right: 1%;
+}
+
+hr {
+    background-color: #bcbbbb;
+    border: 0 none;
+    color: #747704;
+    height: 2px;
+}
+
+body, a {
+  font-family: 'Lato', sans-serif;
+  color: #60604a
+}
+
+.thinfont {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.description-font {
+  font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.top-padded {
+  padding-top: 5%;
+}
+
+.bottom-padded {
+  padding-bottom: 5%;
+}
+
+.presentation-text {
+  width: 75%;
+  font-size: 1.5em;
+
+}
+
+.div-presentation {
+  background-color: lightgreen;
+}
+
+.featured-title {
+  padding-left: 6%;
+  color: #bcbbbb
+}
+
+
+.centerxy {
+  display: block;
+  margin: auto;
+}
