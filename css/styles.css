@@ -1,59 +1,137 @@
-
-.container {
-  width: 70%;
-  max-width: 1250px;
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin-top: 20px;
 }
 
-.name-title {
-  padding-right: 1%;
-}
 
-hr {
-    background-color: #bcbbbb;
-    border: 0 none;
-    color: #747704;
-    height: 2px;
-}
-
-body, a {
+a {
   font-family: 'Lato', sans-serif;
-  color: #60604a
+  color: #60604a;
+  display: block;
+  margin-top: 10px;
 }
 
-.thinfont {
+.reduce-width {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pic {
+margin-top: 10px;
+}
+
+
+@media screen and (max-width: 770px) {
+    .pic {
+      margin: 0 auto;
+    }
+
+    .name-title {
+      text-align: center;
+    }
+}
+
+
+.name {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  font-size: 4em;
 }
 
-.description-font {
-  font-family: 'Arial', Helvetica, sans-serif;
-}
+.about {
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
 
-.top-padded {
-  padding-top: 5%;
-}
-
-.bottom-padded {
-  padding-bottom: 5%;
 }
 
 .presentation-text {
+  padding-top: 2%;
+  padding-bottom: 2%;
   width: 75%;
   font-size: 1.5em;
+}
+
+.presentation-box {
+  color: black;
+  background-color: #d5ecd0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
 
 }
 
-.div-presentation {
-  background-color: lightgreen;
+.menu a {
+  font-weight: 400;
+  width: 150px;
 }
 
 .featured-title {
-  padding-left: 6%;
-  color: #bcbbbb
+  color: #bcbbbb;
+  padding-bottom: 2%;
 }
 
+.project-pic {
+  box-shadow: 0 0 10px #575757;
+  transition: box-shadow 0.2s ease-out;
+}
 
-.centerxy {
-  display: block;
-  margin: auto;
+.project-pic, .project-box {
+  margin: 0 auto;
+}
+
+.project-pic:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px #575757;
+}
+
+.project-box h2 {
+  font-size: 2.2em;
+}
+
+.project-box {
+  margin-bottom: 2%;
+}
+
+.fa {
+  color: #337ab7;
+
+}
+.fa:hover {
+  color: #286090;
+}
+
+.social-icons {
+  background-color:  #d5ecd0;
+  padding: 10px;
+  margin-bottom: 2%;
+}
+
+.social-icons a {
+  display: inline;
+  margin: 1%;
+}
+
+.project-description {
+  margin: 2% 5% 0;
+  font-size: 1.3em;
+}
+.modal-buttons {
+  margin-top: 2%;
+}
+
+.modal-anchors a {
+  width: 120px;
+}
+
+.basic-bordered {
+  border: 1px solid grey;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 80%;
+
 }
