@@ -46,25 +46,29 @@
       </div>
 
       <div class="row text-center">
+
+        <div class="col-md-6 project-box">
+          <h2>mrMDB</h2>
+          <img class="img-responsive center-block project-pic" alt="placeholder" src="images/mrmdb.jpg" data-toggle="modal" data-target="#project6" width="500">
+        </div>
+
         <div class="col-md-6 project-box">
           <h2>Calorie Tracker</h2>
           <img class="img-responsive project-pic project-pic" alt="Calorie Tracker Index" src="images/calorie-tracker.jpg" data-toggle="modal" data-target="#project1" width="500">
         </div>
 
+
+      </div>
+      <div class="row text-center">
         <div class="col-md-6 project-box">
           <h2>Downtown Map</h2>
           <img class="img-responsive center-block project-pic" alt="placeholder" src="images/downtown-map.jpg" data-toggle="modal" data-target="#project2" width="500">
         </div>
-      </div>
-      <div class="row text-center">
         <div class="col-md-6 project-box">
           <h2>Arcade Game (frogger)</h2>
           <img class="img-responsive center-block project-pic" alt="placeholder" src="images/arcade-game.jpg" data-toggle="modal" data-target="#project3" width="500">
         </div>
-        <div class="col-md-6 project-box">
-          <h2>Feedreader Testing</h2>
-          <img class="img-responsive center-block project-pic" alt="placeholder" src="images/feedreader-testing.jpg" data-toggle="modal" data-target="#project4" width="500">
-        </div>
+
       </div>
       <div class="row text-center ">
         <div class="col-md-6 project-box">
@@ -72,8 +76,8 @@
           <img class="img-responsive center-block project-pic" alt="placeholder" src="images/resume.jpg" data-toggle="modal" data-target="#project5" width="500">
         </div>
         <div class="col-md-6 project-box">
-          <h2>Portfolio</h2>
-          <img class="img-responsive center-block project-pic" alt="placeholder" src="images/portfolio.jpg" data-toggle="modal" data-target="#project6" width="500">
+          <h2>Feedreader Testing</h2>
+          <img class="img-responsive center-block project-pic" alt="placeholder" src="images/feedreader-testing.jpg" data-toggle="modal" data-target="#project4" width="500">
         </div>
       </div>
     </div>
@@ -90,6 +94,25 @@
   </div>
 
   <!-- Modals - they open when a project image gets clicked -->
+  <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="project6Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title text-center" id="project6Label">mrMDB</h2>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive center-block modal-pic" alt="app image" src="images/mrmdb.jpg">
+          <div class="modal-anchors text-center">
+            <a href="https://PEsteves8.github.io/mrmdb" target="_blank" class="btn btn-primary btn-large">View</a>
+            <a href="https://github.com/PEsteves8/mrmdb" target="_blank" class="btn btn-primary btn-large">Github Repo</a></div>
+          <p class="project-description text-justify">A personal project, built using Angular 1.x, SASS and Ecmascript6 (2015/Harmony), this project allows users to search for a movie and get the ratings of the main film review websites, IMDb, Rotten Tomatoes and Metacritic. It also includes general info about the movie. It was built in part, as a way to practice some new stuff, like Angular 1.x, ES6, SASS, PostCSS (autoprefixer), modular JS (import/export es6 syntax), Webpack as a bundler and replacement for Gulp, etc. Most of the data comes from omdb, a non-official imdb api.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -187,24 +210,7 @@
       </div>
     </div>
   </div>
-  <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="project6Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title text-center" id="project6Label">Portfolio</h2>
-        </div>
-        <div class="modal-body">
-          <img class="img-responsive center-block modal-pic" alt="app image" src="images/portfolio.jpg">
-          <div class="modal-anchors text-center">
-            <a href="https://github.com/PEsteves8/PEsteves8.github.io" target="_blank" class="btn btn-primary btn-large">Github Repo</a></div>
-          <p class="project-description text-justify ">The site you're visiting right now, this was a simple project required for an Udacity course. The goal was to build a website based on a design mock, using the Bootstrap framework. The students were then encouraged to add their personal touch. The idea is that this first project could work as an actual portfolio for further Udacity projects.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </body>
 
 </html>
